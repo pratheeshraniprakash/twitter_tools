@@ -9,7 +9,7 @@ client: TestClient = TestClient(app)
 
 
 def test_scraping_0() -> None:
-    """Test case for valid requests."""
+    """Test cases for valid requests."""
     request_ = {
         "search_string": "BSNL"
     }
